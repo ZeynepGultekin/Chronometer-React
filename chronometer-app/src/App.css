@@ -1,15 +1,17 @@
-h1{
+h1 {
   margin: 50px;
   text-align: center;
   font-size: 40px;
 }
-.chrono{
-  width: 500px;
+
+.chrono {
+  max-width: 500px;
   border: solid red;
   margin: 0px auto;
- 
+
 }
-.time{
+
+.time {
   padding: 10px;
   font-size: 40px;
   width: 60%;
@@ -19,14 +21,16 @@ h1{
   text-align: center;
   margin: 20px auto;
   border: solid 1px;
-  background-color:rgb(189, 209, 245)
+  background-color: rgb(189, 209, 245)
 }
-.buttons{
+
+.buttons {
   margin: 10px auto;
   padding: 10px;
   text-align: center;
 }
-button{
+
+button {
   padding: 10px;
   margin: 10px;
   border-style: none;
@@ -34,7 +38,18 @@ button{
   border-bottom: 1px solid;
   font-size: 25px;
 }
-button:hover{
+
+button:hover {
   cursor: pointer;
   border-bottom: 3px solid;
+}
+
+@media (max-width: 750px) {
+  .buttons {
+    padding: 0;
+  }
+
+  button {
+    margin: 3px;
+  }
 }
